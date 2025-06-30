@@ -15,6 +15,11 @@ SSC achieves color sorting (and color palette sub-sorting) by setting the sortin
 
 Sortindexes for SSC clothing are 0x0000[2-digit color code][2-digit palette code].
 
+**Examples**: 
+Neon pink clothing would have a sortindex of 0x0000**90***60*.
+Pastel blue clothing would have a sortindex of 0x0000**e0***c0*
+
+
 Color codes:
 | Color | Color Code |
 | --- | --- |
@@ -35,8 +40,8 @@ Palette codes:
 | Palette | Palette Code |
 | --- | --- |
 | Pure | e0 |
-| Tints | c0 |
-| Tones | a0 |
+| Tints (Pastels) | c0 |
+| Tones (Muted) | a0 |
 | Shades | 80 |
 | Neons | 60 |
 
