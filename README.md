@@ -1,2 +1,23 @@
-# StylishSeasonalCloset
+# Stylish Seasonal Closet (SSC)
  A project to make Sims 2 clothing more season and style-aware without a lot of manual assignment.
+
+ SSC clothing is well-sorted in the catalog:
+ - [CCCASOK](https://lavenderlight.tumblr.com/post/641985485922795520/the-coordinated-closet-create-a-sim-organisation) sorting puts outfits in in the catalog grouped by useful pseudo-expansion-packs that correspond to clothing styles.
+- Within each CCCASOK category, clothing is sorted alphabetically by color, using the colors defined by [Color Traits](https://www.tumblr.com/episims/693405410225520640/a-little-something-ive-been-planning-to-do-for-a).
+- Within each color, clothing is sorted into palettes, using palettes defined by Color Palette Traits.
+
+ Helpful guides:
+ - General
+	 - Recolors
+		- [Create a simple recolor package in BodyShop](/docs/packagecreation/bodyshop.md)
+		- [Reference a recolor package to a Maxis texture](/docs/texturereference/maxis.md)
+		- [Reference a recolor package to an exterior texture](/docs/texturereference/custom.md)
+	 - Default Replacements
+		- [Replace Maxis clothing with a custom clothing](/docs/defaultreplace/maxiswithcustom.md)
+		- (unusual) [Replace Maxis clothing with different Maxis clothing](/docs/defaultreplace/maxiswithmaxis.md)
+		- (unusual) [Replace custom clothing with different custom clothing](/docs/defaultreplace/customwithcustom.md)
+- CCCASOK
+	- [Put a recolor into a CCCASOK group using the Outfit Organizer](/docs/cccasok/outfitorganizer.md)
+	- [Put a recolor into a CCCASOK group manually](/docs/cccasok/manual.md)
+- SSC
+	- [Color and palette sortindexes](/docs/ssc/sortindexes.md)
