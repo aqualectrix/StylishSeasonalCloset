@@ -1,10 +1,12 @@
 ﻿# Sortindexes for Color Sorting
 
-> [!NOTE] What's a sortindex?
+> [!NOTE] 
+> **What's a sortindex?**
 >
 > The sortindex is a hexadecimal number inside a BodyShop package's Binary Index (BINX) resource. It determines the order that BodyShop, CAS, and in-game menus display BodyShop items.
 
-> [!IMPORTANT] Sort Order
+> [!IMPORTANT] 
+> **Sort Order**
 >
 > A higher sortindex will show up *earlier* in the catalog. You can think of sortindexes as counting down instead of up.
 > All items in a given product (expansion pack / BSOK or CCCASOK group) will sort together, with higher sortindexes earlier within the product.
