@@ -79,19 +79,23 @@ If the Finder doesn't work, manually open the appropriate Skins.package (which l
 > - You have a difference in the "number of groups" from the Original and Replacer
 > - **or** your TXMTs had different subset names than the subsets you noted in the Property Set (GZPS).
 
+1. Open your default replacement file.
 1. Open the Property Set (GZPS) and get your TXTR order / subset name notes.
 
-1. If your Original has more overrides ("groups") than your Replacer:
+### Original # of Groups > Replacer # of Groups
+If your Original has more overrides ("groups") than your Replacer:
   1. Change the `numoverrides` line to match the number of groups in your replacer.
   1. Remove any extra `override` lines. For example, if you have only one group, you must remove `override1shape`, `override1subset`, `override1resourcekey`, and any further overrides with numbers greater than 0 in their names.
   1. Make sure each `overridesubset` line, in numerical order starting at 0, matches the ordered list of subset names you noted from your TXMTs. 
   1. Commit and Save. 
 
-1. If your Original has the same number of overrides ("groups") than your Replacer, but different subset names:
+### Original # of Groups == Replacer # of Groups
+If your Original has the same number of overrides ("groups") than your Replacer, but different subset names:
   1. Change each `overridesubset` line, in order, to match the ordered list of subset names you noted from your TXMTs.
   1. Commit and Save.
 
-1. If your Original has fewer overrides ("groups") than your Replacer:
+### Original # of Groups < Replacer # of Groups
+If your Original has fewer overrides ("groups") than your Replacer:
   1. Change the `numoverrides` line to match the number of groups in your replacer.
   1. Make sure each existing `overridesubset` line, in numerical order starting at 0, matches the ordered list of subset names you noted from your TXMTs... until you run out of existing `overridesubset` lines.
   1. For each extra group, in the order found in your notes:
