@@ -62,16 +62,18 @@ If the Finder doesn't work, manually open the appropriate Skins.package (which l
 
 1. Open your default replacement file.
 1. Add all the TXMT and TXTR resources you extracted from the Replacer. Save.
-1. If you just have one TXMT:
-  1. Open the 3IDR resource. Click the "Package" button in the Plugin View.
-  1. From the window that pops up, drag the Material Definition line into the 3DIR area. **Order is important** -- use the "up" and "down" buttons if necessary to make sure this line are in the same order they were in the Original. (Usually the Material Definition is after the Resource Node and Shape lines.)  
-1. If you have more than one TXMT:
-  1. Open the GZPS (Property Set) resource. You're looking for the line called `override0subset`If there are lines with 1, 2, 3, etc. in them instead of 0 (e.g. `override1subset`), you care about those too.
-  1. Write down the subset names in order. For example, you might note "0: bottom, 1: extra".
-  1. In SimPE's Resource List, look at the names of the TXMT (Material Definition) resources. Usually they have the form "##numbersandletters!groupname_txmt". Match each group name to the notes you've already taken and also note down the instance number for that group. If there are more TXMTs than overridesubset lines, note down the additional group names and instance numbers.
-  1. Open the 3IDR resource. Click the "Package" button in the Plugin View.
-  1. From the window that pops up, drag the Material Definition lines into the empty 3DIR area. **Order is important** -- use the "up" and "down" buttons if necessary to make sure these lines are in the same order as they are in your notes. Check that the last section of each Material Definition in the 3IDR window matches the instance numbers you noted down in the order you noted them down. Typically all Material Definition lines should be below the Shape line. 
-  1. Commit and Save.
+
+### Single TXMT
+1. Open the 3IDR resource. Click the "Package" button in the Plugin View.
+1. From the window that pops up, drag the Material Definition line into the 3DIR area. **Order is important** -- use the "up" and "down" buttons if necessary to make sure this line are in the same order they were in the Original. (Usually the Material Definition is after the Resource Node and Shape lines.)  
+
+### Multiple TXMTs
+1. Open the GZPS (Property Set) resource. You're looking for the line called `override0subset`If there are lines with 1, 2, 3, etc. in them instead of 0 (e.g. `override1subset`), you care about those too.
+1. Write down the subset names in order. For example, you might note "0: bottom, 1: extra".
+1. In SimPE's Resource List, look at the names of the TXMT (Material Definition) resources. Usually they have the form "##numbersandletters!groupname_txmt". Match each group name to the notes you've already taken and also note down the instance number for that group. If there are more TXMTs than overridesubset lines, note down the additional group names and instance numbers.
+1. Open the 3IDR resource. Click the "Package" button in the Plugin View.
+1. From the window that pops up, drag the Material Definition lines into the empty 3DIR area. **Order is important** -- use the "up" and "down" buttons if necessary to make sure these lines are in the same order as they are in your notes. Check that the last section of each Material Definition in the 3IDR window matches the instance numbers you noted down in the order you noted them down. Typically all Material Definition lines should be below the Shape line. 
+1. Commit and Save.
 
 ## Reconcile Overrides
 > [!IMPORTANT]
@@ -84,21 +86,21 @@ If the Finder doesn't work, manually open the appropriate Skins.package (which l
 
 ### Original # of Groups > Replacer # of Groups
 If your Original has more overrides ("groups") than your Replacer:
-  1. Change the `numoverrides` line to match the number of groups in your replacer.
-  1. Remove any extra `override` lines. For example, if you have only one group, you must remove `override1shape`, `override1subset`, `override1resourcekey`, and any further overrides with numbers greater than 0 in their names.
-  1. Make sure each `overridesubset` line, in numerical order starting at 0, matches the ordered list of subset names you noted from your TXMTs. 
-  1. Commit and Save. 
+1. Change the `numoverrides` line to match the number of groups in your replacer.
+1. Remove any extra `override` lines. For example, if you have only one group, you must remove `override1shape`, `override1subset`, `override1resourcekey`, and any further overrides with numbers greater than 0 in their names.
+1. Make sure each `overridesubset` line, in numerical order starting at 0, matches the ordered list of subset names you noted from your TXMTs. 
+1. Commit and Save. 
 
 ### Original # of Groups == Replacer # of Groups
 If your Original has the same number of overrides ("groups") than your Replacer, but different subset names:
-  1. Change each `overridesubset` line, in order, to match the ordered list of subset names you noted from your TXMTs.
-  1. Commit and Save.
+1. Change each `overridesubset` line, in order, to match the ordered list of subset names you noted from your TXMTs.
+1. Commit and Save.
 
 ### Original # of Groups < Replacer # of Groups
 If your Original has fewer overrides ("groups") than your Replacer:
-  1. Change the `numoverrides` line to match the number of groups in your replacer.
-  1. Make sure each existing `overridesubset` line, in numerical order starting at 0, matches the ordered list of subset names you noted from your TXMTs... until you run out of existing `overridesubset` lines.
-  1. For each extra group, in the order found in your notes:
+1. Change the `numoverrides` line to match the number of groups in your replacer.
+1. Make sure each existing `overridesubset` line, in numerical order starting at 0, matches the ordered list of subset names you noted from your TXMTs... until you run out of existing `overridesubset` lines.
+1. For each extra group, in the order found in your notes:
 	1. Note the highest number currently in the `override` lines. For example, if you only have `override0` lines, the highest number is 0.
 	1. Add one to that number to come up with X. In our example, X is 1.
 	1. Add a line called `overrideXshape`, where X is your number from the previous step. This line has the `dtUInteger` type, and its value is 0.
