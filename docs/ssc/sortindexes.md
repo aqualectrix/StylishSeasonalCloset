@@ -3,7 +3,7 @@
 > [!NOTE] 
 > **What's a sortindex?**
 >
-> The sortindex is a hexadecimal number inside a BodyShop package's Binary Index (BINX) resource. It determines the order that BodyShop, CAS, and in-game menus display BodyShop items. It is editable in both SimPE or in the [Outfit Organizer](https://www.picknmixmods.com/Sims2/Notes/OutfitOrganiser/OutfitOrganiser.html) (use the Sort field; press Enter to make the change stick).
+> The sortindex is a hexadecimal number inside a BodyShop package's Binary Index (BINX) resource. It determines the order that BodyShop, CAS, and in-game menus display BodyShop items. It is editable in both SimPE.
 
 > [!IMPORTANT] 
 > **Sort Order**
@@ -13,11 +13,11 @@
 
 SSC achieves color sorting (and color palette sub-sorting) by setting the sortindex of each item of clothing.
 
-Sortindexes for SSC clothing are 0x0000[2-digit color code][2-digit palette code]. In the Outfit Organizer, you'll need to supply the [decimal value](https://www.rapidtables.com/convert/number/hex-to-decimal.html).
+Sortindexes for SSC clothing are 0x0000[2-digit color code][2-digit palette code].
 
 **Examples**: 
-- Neon pink clothing would have a sortindex of 0x0000**90***60*. The decimal value is 36960.
-- Pastel blue clothing would have a sortindex of 0x0000**e0***c0*. The decimal value is 57536.
+- Neon pink clothing would have a sortindex of 0x0000**90***60*.
+- Pastel blue clothing would have a sortindex of 0x0000**e0***c0*.
 
 
 Color codes:
