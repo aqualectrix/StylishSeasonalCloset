@@ -14,8 +14,9 @@
 		- [Reference a recolor package to an exterior texture](/docs/texturereference/tocustom.md)
 	 - Default Replacements
 		- [Replace Maxis clothing with a custom clothing](/docs/defaultreplace/maxiswithcustom.md)
-		- (unusual) [Replace Maxis clothing with different Maxis clothing](/docs/defaultreplace/maxiswithmaxis.md)
 		- (unusual) [Replace custom clothing with different custom clothing](/docs/defaultreplace/customwithcustom.md)
+		- (very unusual) [Replace Maxis clothing with different Maxis clothing](/docs/defaultreplace/maxiswithmaxis.md)
+		- (very unusual) [Replace custom clothing with Maxis clothing](/docs/defaultreplace/customwithMaxis.md)
 - CCCASOK
 	- [Put a recolor into a CCCASOK group using the BSOK Editor](/docs/cccasok/bsokeditor.md)
 - SSC
