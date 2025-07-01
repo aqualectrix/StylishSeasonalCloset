@@ -10,8 +10,8 @@
  - General
 	 - Recolors
 		- [Create a simple recolor package in BodyShop](/docs/packagecreation/bodyshop.md)
-		- [Reference a recolor package to a Maxis texture](/docs/texturereference/maxis.md)
-		- [Reference a recolor package to an exterior texture](/docs/texturereference/custom.md)
+		- [Reference a recolor package to a Maxis texture](/docs/texturereference/tomaxis.md)
+		- [Reference a recolor package to an exterior texture](/docs/texturereference/tocustom.md)
 	 - Default Replacements
 		- [Replace Maxis clothing with a custom clothing](/docs/defaultreplace/maxiswithcustom.md)
 		- (unusual) [Replace Maxis clothing with different Maxis clothing](/docs/defaultreplace/maxiswithmaxis.md)
