@@ -6,7 +6,7 @@
 - Within each CCCASOK category, clothing is sorted alphabetically by color, using the colors defined by [Color Traits](https://www.tumblr.com/episims/693405410225520640/a-little-something-ive-been-planning-to-do-for-a). (You don't need the color traits to use SSC clothing.)
 - Within each color, clothing is sorted into palettes, using palettes defined by Color Palette Traits.
 
- Helpful references:
+ ## Helpful references:
  - General
 	 - Recolors
 		- [Create a simple recolor package in BodyShop](/docs/packagecreation/bodyshop.md)

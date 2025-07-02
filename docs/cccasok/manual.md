@@ -1,4 +1,4 @@
-# Add Clothing to a CCCASOK Group
+# Add Clothing to a CCCASOK Group Manually
 
 > [!IMPORTANT]
 > Always refer to the reference provided in your [CCCASOK download](https://lavenderlight.tumblr.com/post/641985485922795520/the-coordinated-closet-create-a-sim-organisation) as the final authority in which product IDs correspond to which categories.
