@@ -12,7 +12,7 @@ You'll want to pick a Product ID with two qualities:
 
 [CCCASOK](https://lavenderlight.tumblr.com/post/641985485922795520/the-coordinated-closet-create-a-sim-organisation) currently uses the `0xCA5` and `0xCAF` prefixes. The `0xCAF` prefix overlaps with the mfBSOK Classic Pinup group. This usually doesn't cause a problem because most people won't play a game that includes both a wide range of Medieval content and a wide range of modern Maxis-bodyshape content (which is what CCCASOK was created for), so they'll never encounter the conflict.
 
-> [!INFO]
+> [!NOTE]
 > SSC's expansions to CCCASOK use the `0xCAA` prefix, which currently has no collisions recorded in the BSOK Editor's XML files.
 
 You don't need to put the product ID in a .package, but you should write it down somewhere.
@@ -30,7 +30,7 @@ You'll need a 16px x 16px image to use as your icon.
 1. Save.
 1. Put this file in your Downloads folder.
 
-> [!INFO]
+> [!NOTE]
 > The 0xABBB prefix requirement for the icon ID number is largely why your Product ID should be only four hexits long.
 
 ## Update your Personal BSOK Editor
