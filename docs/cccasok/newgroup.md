@@ -44,5 +44,7 @@ This is not necessary to make the game see your new group, but it will help a gr
 <role name="Your Group Name" code="0x0000[your 4-digit hexit number]"/>
 ```
 
+1. Update the line to use your group name and your 4-digit hexit number. Save.
+
 > [!NOTE]
 > If you're planning to distribute your new group as something else other people will use, you should contact both [lavenderlight](https://lavenderlight.tumblr.com/) (CCCASOK originator) and [Pick'N'Mix Sims](https://www.picknmixmods.com/Sims2/Main/About.html) (BSOK Editor developer) to give them a heads up. If you know what "pull request" means, it's probably kind to send a pull request to update the [CCCASOK XML file](https://github.com/whoward69/Sims2Tools/tree/main/BsokEditor/Resources/XML) as well.
