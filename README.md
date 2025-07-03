@@ -19,5 +19,7 @@
 		- (very unusual) [Replace custom clothing with Maxis clothing](/docs/defaultreplace/customwithMaxis.md)
 - CCCASOK
 	- [Put a recolor into a CCCASOK group using the BSOK Editor](/docs/cccasok/bsokeditor.md)
+	- [Create a new BSOK group for use in CCCASOK](/docs/cccasok/newgroup.md)
 - SSC
 	- [Color and palette sortindexes](/docs/ssc/sortindexes.md)
+	- [Create a base SSC package](/docs/packagecreation/ssc_base.md)
