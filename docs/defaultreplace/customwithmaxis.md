@@ -47,7 +47,7 @@ Once you [know the Replacer outfit's name](maxisfindname.md), e.g. `aftophalter_
 1. Use the SimPE Finder to do a **NameMap Search** for the full name of the Replacer.
 1. Double-click the found `txmt` resource in the latest expansion pack that includes it. This opens the appropriate package with that resource selected.
 1. Extract the TXMT (Material Definition) resource. 
-1. If the Replacer has multiple groups, repeat for each TXMT resources.
+1. If the Replacer has multiple groups, repeat for each TXMT resource.
 
 ## Reference the Replacer Texture Resources
 > [!IMPORTANT]

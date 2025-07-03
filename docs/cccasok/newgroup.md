@@ -9,6 +9,7 @@ You'll want to pick a Product ID with two qualities:
 	- 0x0D and 0x0C (in use by nuBSOK)
 	- 0xF, 0xE, 0xD, 0xC, 0xB, 0xA, 0x7, 0x6 (in use by mfBSOK)
 	- 0x00, 0x06, 0x07 (in use by legacy BSOK)
+	- Don't use 0x0000 either -- that's the code for Custom Content and will just get you the Custom Content star.
 
 [CCCASOK](https://lavenderlight.tumblr.com/post/641985485922795520/the-coordinated-closet-create-a-sim-organisation) currently uses the `0xCA5` and `0xCAF` prefixes. The `0xCAF` prefix overlaps with the mfBSOK Classic Pinup group. This usually doesn't cause a problem because most people won't play a game that includes both a wide range of Medieval content and a wide range of modern Maxis-bodyshape content (which is what CCCASOK was created for), so they'll never encounter the conflict.
 
