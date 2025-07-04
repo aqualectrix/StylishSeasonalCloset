@@ -21,5 +21,6 @@
 	- [Put a recolor into a CCCASOK group using the BSOK Editor](/docs/cccasok/bsokeditor.md)
 	- [Create a new BSOK group for use in CCCASOK](/docs/cccasok/newgroup.md)
 - SSC
+	- [Group and sort a Maxis outfit](/docs/ssc/sort_maxis.md)
 	- [Color and palette sortindexes](/docs/ssc/sortindexes.md)
 	- [Create a base SSC package](/docs/packagecreation/ssc_base.md)
