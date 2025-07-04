@@ -8,41 +8,41 @@
 > [!IMPORTANT] 
 > **Sort Order**
 >
-> A higher sortindex will show up *earlier* in the catalog. You can think of sortindexes as counting down instead of up.
-> All items in a given product (expansion pack / BSOK or CCCASOK group) will sort together, with higher sortindexes earlier within the product.
+> A higher sortindex will show up *earlier* in the catalog for things the game recognizes as custom content. For things the game recognizes as part of an expansion or stuff pack -- even fake ones like CCCASOK groups -- a higher sortindex will show up *later* in the catalog.
+> All items in a given product (expansion pack / BSOK or CCCASOK group) will sort together, with lower sortindexes earlier within the product.
 
 SSC achieves color sorting (and color palette sub-sorting) by setting the sortindex of each item of clothing.
 
 Sortindexes for SSC clothing are 0x0000[2-digit color code][2-digit palette code].
 
 **Examples**: 
-- Neon pink clothing would have a sortindex of 0x0000**90***60*.
-- Pastel blue clothing would have a sortindex of 0x0000**e0***c0*.
+- Neon pink clothing would have a sortindex of 0x0000**70***90*.
+- Pastel blue clothing would have a sortindex of 0x0000**20***30*.
 
 
 Color codes:
 | Color | Color Code |
 | --- | --- |
-| Black | f0 |
-| Blue | e0 |
-| Brown | d0 |
-| Green | c0 |
-| Grey | b0 |
-| Orange | a0 |
-| Pink | 90 |
+| Black | 10 |
+| Blue | 20 |
+| Brown | 30 |
+| Green | 40 |
+| Grey | 50 |
+| Orange | 60 |
+| Pink | 70 |
 | Purple | 80 |
-| Red | 70 |
-| Turquoise | 60 |
-| White | 50 |
-| Yellow | 40 |
+| Red | 90 |
+| Turquoise | a0 |
+| White | b0 |
+| Yellow | c0 |
 
 Palette codes:
 | Palette | Palette Code |
 | --- | --- |
-| Pure | e0 |
-| Tints (Pastels) | c0 |
-| Tones (Muted) | a0 |
-| Shades | 80 |
-| Neons | 60 |
+| Pure | 10 |
+| Tints (Pastels) | 30 |
+| Tones (Muted) | 50 |
+| Shades | 70 |
+| Neons | 90 |
 
 

@@ -1,6 +1,9 @@
 # Create an SSC Base Package.
 
-SSC relies on a default-replacement-like system to change the clothing seasonally. These are instructions on how to create a base package that gives us something to replace for each season. (You can also use an existing Maxis outfit as a base.)
+SSC relies on a default-replacement-like system to change the clothing seasonally. These are instructions on how to create a Base package that gives us something to replace for each season. (You can also use an existing Maxis outfit as a base.)
+
+> [!IMPORTANT]
+> You can't just copy-and-alter an existing Base package. Their resources will have the same Group and therefore work as replacements for each other. You need to actually create the package in BodyShop in order to get a (pseudo-)uniquely assigned Group.
 
 ## Create and Name the Package
 1. [Create a new clothing package in BodyShop](bodyshop.md). Name it something memorable.
@@ -28,7 +31,7 @@ Because we're never going to see this outfit and we're not changing anything abo
 
 ## Update Sortindex
 
-1. In the Binary Index (BINX) resource, update the sortindex line to reflect SSC color sorting as documented [here](/docs/scc/sortindexes.md). (In the example we've been using, dark green, we'd use `c080`.)
+1. In the Binary Index (BINX) resource, update the sortindex line to reflect SSC color sorting as documented [here](/docs/scc/sortindexes.md). (In the example we've been using, dark green, we'd use `4070`.)
 1. Commit and Save.
 
 ## Update Product ID
